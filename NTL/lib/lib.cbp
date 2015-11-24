@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../WinNTL-9_3_0/src/FFT.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/FacVec.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2E.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2EX.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2EXFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2X.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2X1.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2XFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GF2XVec.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/G_LLL_FP.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/G_LLL_QP.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/G_LLL_RR.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/G_LLL_XD.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GetPID.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/GetTime.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/HNF.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/LLL.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/LLL_FP.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/LLL_QP.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/LLL_RR.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/LLL_XD.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/RR.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/WordVector.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZVec.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZX.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZX1.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZXCharPoly.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZXFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pE.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pEX.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pEXFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pX.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pX1.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pXCharPoly.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/ZZ_pXFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/c_lip_impl.h" />
+		<Unit filename="../WinNTL-9_3_0/src/ctools.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/fileio.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/g_lip_impl.h" />
+		<Unit filename="../WinNTL-9_3_0/src/lip.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pE.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pEX.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pEXFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pX.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pX1.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pXCharPoly.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/lzz_pXFactoring.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_GF2.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_GF2E.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_RR.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_ZZ.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_ZZ_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_ZZ_pE.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_lzz_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_lzz_pE.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_poly_ZZ.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_poly_ZZ_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/mat_poly_lzz_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/quad_float.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/thread.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/tools.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_GF2.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_GF2E.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_RR.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_ZZ.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_ZZ_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_ZZ_pE.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_lzz_p.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/vec_lzz_pE.cpp" />
+		<Unit filename="../WinNTL-9_3_0/src/xdouble.cpp" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1237556558 source:d:\sourcecodec++\ntl\baitap\debug.c
+	<stdio.h>
+	"debug.h"
+
+1237556334 d:\sourcecodec++\ntl\baitap\debug.h
+	"symtab.h"
+
+1237562696 d:\sourcecodec++\ntl\baitap\symtab.h
+
+1446629878 source:d:\sourcecodec++\ntl\baitap\main.c
+	<stdio.h>
+	<stdlib.h>
+	"symtab.h"
+	"debug.h"
+
+1446629015 source:d:\sourcecodec++\ntl\baitap\symtab.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"symtab.h"
+
